@@ -12,21 +12,29 @@
 
 <body>
     <div class="container">
-        <h1>Form Basics</h1>
+        <h1>College Survey </h1>
         <hr>
         <form action="http://www.w3schools.com/action_page.php" method="get">
 
             Name:
             <input type="text" name="name"><br> E-mail:
             <input type="email" name="email"><br>
+            
 
             <!--add your own inputs below-->
-
-
-
-
-
-
+            <input type="tel" name="phone" placeholder="Enter Phone Number">
+        <p>Gender: <input type="radio" name="sex" value="male">Male <input type="radio" name="sex" value="female">Female</p> 
+        <p>Do you have a sibling?<input type="radio" name="sex" value="Yes">Yes
+            <input type="radio" name="sex" value="No">No</p>
+        <p><h3>What do you want to major in? If you are unsure, click not sure. If you do not see your major, please click other. </h3></p>
+    <select name="Major">
+        <option value="Accounting and Finance" selected> Accounting and Finance </option>
+        <option value="Business" selected> Business </option>
+        <option value="Health and Medicine" selected> Health and Medicine </option>
+        <option value="Social Sciences" selected> Social Sciences  </option>
+        <input type="checkbox" name="choice-one" value="other">Other
+        <input type="checkbox" name="choice-two" value="unsure">Not sure
+    </select>
 
 
             <!--add your own inputs above-->
